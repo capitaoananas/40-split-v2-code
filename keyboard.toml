@@ -1,9 +1,9 @@
 [keyboard]
 name = "RMK Keyboard"
-product_name = "keyboard"
+product_name = "RMK Keyboard"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "lukas"
+manufacturer = "haobo"
 chip = "rp2040"
 
 [matrix]
@@ -13,10 +13,11 @@ direct_pins = [
     ["PIN_0", "PIN_1", "PIN_2"],
     ["PIN_3", "PIN_4", "PIN_5"],
     ["PIN_6", "_", "_"],
+    ["PIN_9", "PIN_10", "_"],
 ]
 
 [layout]
-rows = 3
+rows = 4
 cols = 3
 layers = 1
 keymap = [
