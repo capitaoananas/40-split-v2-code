@@ -13,11 +13,10 @@ direct_pins = [
     ["PIN_0", "PIN_1", "PIN_2"],
     ["PIN_3", "PIN_4", "PIN_5"],
     ["PIN_6", "PIN_7", "PIN_8"],
-    ["PIN_9", "PIN_10", "_"],
 ]
 
 [layout]
-rows = 4
+rows = 3
 cols = 3
 layers = 2
 keymap = [
@@ -25,7 +24,6 @@ keymap = [
         ["A", "B", "C"],
         ["D", "E", "F"],
         ["G", "H", "I"],
-        ["OSL(1)", "LT(2, Kc9)", "_"]
     ],
     [
         ["_", "TT(1)", "TG(2)"],
