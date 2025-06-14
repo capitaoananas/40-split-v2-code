@@ -1,6 +1,6 @@
 [keyboard]
 name = "RMK Keyboard"
-product_name = "A FUCKING KEYBOARD"
+product_name = "FUCKING KEYBOARD"
 vendor_id = 0x4c4b
 product_id = 0x4643
 chip = "rp2040"
@@ -21,10 +21,10 @@ cols = 4
 layers = 1
 keymap = [
     [
-        ["_", "_", "_", "_"],
-        ["_", "_", "_", "_"],
-        ["_", "_", "_", "_"],
-        ["_", "_", "_", "_"]
+        ["A", "B", "C", "D"],
+        ["E", "F", "G", "H"],
+        ["I", "J", "K", "L"],
+        ["M", "N", "O", "P"]
     ],
 ]
 
