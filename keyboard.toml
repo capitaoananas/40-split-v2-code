@@ -1,6 +1,6 @@
 [keyboard]
 name = "RMK Keyboard"
-product_name = "FUCKING KEYBOARD"
+product_name = "not a KEYBOARD"
 vendor_id = 0x4c4b
 product_id = 0x4643
 chip = "rp2040"
