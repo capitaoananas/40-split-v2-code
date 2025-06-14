@@ -1,9 +1,8 @@
 [keyboard]
 name = "RMK Keyboard"
-product_name = "RMK Keyboard"
+product_name = "A FUCKING KEYBOARD"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "haobo"
 chip = "rp2040"
 
 [matrix]
@@ -22,9 +21,9 @@ cols = 3
 layers = 1
 keymap = [
     [
-        ["A", "B", "C"],
-        ["Kc1", "Kc2", "Kc3"],
-        ["LCtrl", "_", "_"],
+        ["_", "_", "_"],
+        ["_", "_", "_"],
+        ["_", "_", "_"],
         ["_", "_", "_"]
     ],
 ]
