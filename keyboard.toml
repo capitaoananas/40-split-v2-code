@@ -3,7 +3,6 @@ name = "RMK Keyboard"
 product_name = "RMK Keyboard"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "haobo"
 chip = "rp2040"
 
 [matrix]
@@ -25,7 +24,7 @@ keymap = [
         ["A", "B", "C", "D", "E"],
         ["F", "G", "H", "I", "J"],
         ["K", "L", "M", "N", "O"],
-        ["No", "No", "P", "Q", "R"],
+        ["None", "None", "P", "Q", "R"],
     ],
 
 ]
