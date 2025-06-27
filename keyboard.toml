@@ -20,7 +20,14 @@ direct_pins = [
 rows = 4
 cols = 5
 layers = 3
-
+keymap = [
+    [
+    ["A", "B", "C", "D", "E"],
+    ["F", "G", "H", "I", "J"],
+    ["K", "L", "M", "N", "O"],
+              ["P", "Q", "R"],
+    ],
+]
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
