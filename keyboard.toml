@@ -18,7 +18,7 @@ direct_pins = [
 [layout]
 rows = 4
 cols = 5
-layers = 2
+layers = 1
 keymap = [
     [
         ["A", "B", "C", "D", "E"],
