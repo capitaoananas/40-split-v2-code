@@ -1,32 +1,26 @@
 [keyboard]
-name = "RMK Keyboard"
-product_name = "A FUCKING KEYBOARD"
+name = "40%ish split keyboard"
+product_name = "Split"
 vendor_id = 0x4c4b
 product_id = 0x4643
+manufacturer = "40%ish"
 chip = "rp2040"
 
 [matrix]
 matrix_type = "direct_pin"
 direct_pin_low_active = true
 direct_pins = [
-    ["PIN_0", "PIN_1", "PIN_2", "PIN_3"],
-    ["PIN_4", "PIN_5", "PIN_6", "PIN_7"],
-    ["PIN_8", "PIN_9", "PIN_10", "PIN_11"],
-    ["PIN_12", "PIN_13", "PIN_14", "PIN_15"],
+    ["PIN_28", "PIN_29", "PIN_0", "PIN_1", "PIN_2"],
+    ["PIN_26", "PIN_27", "PIN_3", "PIN_4", "PIN_5"],
+    ["PIN_15", "PIN_14", "PIN_6", "PIN_7", "PIN_8"],
+                      ["PIN_11", "PIN_10", "PIN_9"],
 ]
 
 [layout]
 rows = 4
-cols = 4
+cols = 5
 layers = 3
-keymap = [
-    [
-        ["TG(1)", "B", "C", "D"],
-        ["E", "F", "G", "H"],
-        ["I", "J", "K", "L"],
-        [ "M", "N", "O", "P"]
-    ],
-]
+
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
