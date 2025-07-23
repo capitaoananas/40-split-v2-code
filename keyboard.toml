@@ -1,9 +1,9 @@
 [keyboard]
-name = "40%ish split keyboard"
-product_name = "V2"
+name = "RMK Keyboard"
+product_name = "RMK Keyboard"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "40ish"
+manufacturer = "haobo"
 chip = "rp2040"
 
 [matrix]
