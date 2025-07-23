@@ -35,5 +35,5 @@ keymap = [
 [storage]
 
 
-[split]
-connection = "serial"
+## [split]
+## connection = "serial"
