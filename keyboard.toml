@@ -6,7 +6,33 @@ product_id = 0x4643
 manufacturer = "40%ish"
 chip = "rp2040"
 
-[matrix]
+[layout]
+rows = 4
+cols = 10   # 5 columns per side × 2
+layers = 2
+keymap = [
+    [
+        ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+        ["K", "L", "M", "N", "O", "P", "Q", "R", "S", "T"],
+        ["U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4"],
+        ["5", "6", "7", "8", "9", "0", "-", "=", "[", "]"],
+    ],
+]
+
+[storage]
+
+[light]
+
+[split]
+connection = "serial"
+
+[split.central]
+rows = 4
+cols = 5
+row_offset = 0
+col_offset = 0
+
+[split.central.matrix]
 matrix_type = "direct_pin"
 direct_pin_low_active = true
 direct_pins = [
@@ -16,24 +42,23 @@ direct_pins = [
     ["_", "_", "PIN_11", "PIN_10", "PIN_9"],
 ]
 
-[layout]
+[split.peripheral]
 rows = 4
 cols = 5
-layers = 2
-keymap = [
-    [
-        ["A", "B", "C", "D", "E"],
-        ["F", "G", "H", "I", "J"],
-        ["K", "L", "M", "N", "O"],
-        ["_", "_", "R", "S", "T"],
-    ],
+row_offset = 0
+col_offset = 5
 
+[split.peripheral.matrix]
+matrix_type = "direct_pin"
+direct_pin_low_active = true
+direct_pins = [
+    ["PIN_28", "PIN_29", "PIN_0", "PIN_1", "PIN_2"],
+    ["PIN_26", "PIN_27", "PIN_3", "PIN_4", "PIN_5"],
+    ["PIN_15", "PIN_14", "PIN_6", "PIN_7", "PIN_8"],
+    ["_", "_", "PIN_11", "PIN_10", "PIN_9"],
 ]
 
-[light]
-
-[storage]
-
-
-[split]
-connection = "serial"
+[split.serial]
+instance = "UART0"
+tx_pin = "PIN_16"     # Replace with your actual TX pin
+rx_pin = "PIN_17"     # Replace with your actual RX pin
