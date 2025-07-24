@@ -38,7 +38,7 @@ serial = [
 ]
 
 [split.central.matrix]
-
+matrix_type = "direct_pin"
 direct_pins = [
     ["PIN_28", "PIN_29", "PIN_0", "PIN_1", "PIN_2"],
     ["PIN_26", "PIN_27", "PIN_3", "PIN_4", "PIN_5"],
@@ -56,6 +56,8 @@ col_offset = 5
 serial = [
     { instance = "PIO0", tx_pin = "PIN_13", rx_pin = "PIN_12" }]
 
+[split.peripheral.matrix]
+matrix_type = "direct_pin"
 direct_pins = [
     ["PIN_2", "PIN_1", "PIN_0", "PIN_29", "PIN_28"],
     ["PIN_5", "PIN_4", "PIN_3", "PIN_27", "PIN_26"],
