@@ -32,8 +32,8 @@ cols = 10
 row_offset = 0
 col_offset = 0
 serial = [
-    { instance = "UART0", tx_pin = "PIN_12", rx_pin = "PIN_13" },
-]
+    { instance = "PIO0", tx_pin = "PIN_12", rx_pin = "PIN_13" }]
+
 
 matrix_type="direct_pin"
 direct_pins = [
