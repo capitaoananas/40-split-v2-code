@@ -8,7 +8,7 @@ chip = "rp2040"
 
 [layout]
 rows = 4
-cols = 5
+cols = 10
 layers = 2
 keymap = [
     [
