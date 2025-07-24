@@ -46,8 +46,8 @@ direct_pins = [
 [[split.peripheral]]
 rows = 4
 cols = 5
-row_offset = 7
-col_offset = 0
+row_offset = 0 # The row offset of the peripheral, peripheral starts from row 0, so the offset is 0
+col_offset = 5 # The col offset of the peripheral. Central has 2 cols, so the col_offset should be 2 for the peripheral
 serial = [
     { instance = "PIO0", tx_pin = "PIN_13", rx_pin = "PIN_12" }]
 
