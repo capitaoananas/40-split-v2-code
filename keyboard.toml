@@ -20,7 +20,7 @@ keymap = [
 ]
 
 [light]
-capslock = { pin = "PIN_16", low_active = true }
+capslock = { pin = "PIN_16"}
 
 [storage]
 
