@@ -19,10 +19,6 @@ keymap = [
     ],
 ]
 
-[light]
-
-[storage]
-
 [split]
 connection = "serial"
 
