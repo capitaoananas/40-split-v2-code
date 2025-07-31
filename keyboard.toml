@@ -12,7 +12,7 @@ cols = 10
 layers = 4
 keymap = [
     [
-        ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+        ["A", "B", "C", "P", "Y", "F", "G", "R", "C", "L"],
         ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
         ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
         ["_", "_", "R", "S", "T", "R", "S", "T", "_", "_"],
@@ -20,6 +20,7 @@ keymap = [
 ]
 
 [light]
+capslock = { pin = "PIN_16", low_active = true }
 
 [storage]
 
